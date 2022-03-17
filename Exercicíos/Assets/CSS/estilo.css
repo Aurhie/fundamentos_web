@@ -1,0 +1,101 @@
+/*Estilos da pagina index.html*/
+h1
+ {
+     color :#c2a70c;
+    font-size: 60px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     text-align: center;
+     font-weight: bold;
+ }
+ h2
+ {
+     color: #0a0975;
+     text-align: center;
+ }
+ .center
+ {
+     text-align: center;
+ }
+
+ p
+ {
+     color: #886600;
+font-size: 25px;
+ }
+ .container
+ {
+     display: flex;
+     flex-flow: row;
+     justify-content: center;
+     align-items: center;
+ }
+ #menu li
+ {
+     display: inline;
+     padding: 15px;
+ }
+ #menu li a
+ {
+    text-decoration: none;
+    color:#0a0975;
+    font-size: 20px;
+ }
+ #menu li a:hover
+ {
+     color: #55534d;
+ }
+ .p-30
+ {
+     padding: 30px;
+ }
+
+ .br-50
+ {
+     border-radius: 45%;
+ }
+
+ #copy
+ {
+    color: #55534d;
+    font-size: 15px;
+    text-align: center;
+ }
+
+ .tm-social
+ {
+     width: 30px;
+     height: 30px;
+     padding: 20px;
+ }
+
+ .justify
+ {
+     text-align: justify;
+ }
+
+.glass
+{
+    background-color: #ffffff9d;
+    border-top: 1px solid #e7b40aa4;
+    border-right: 1px solid #e7b40aa4;
+    border-left: 1px solid #e7b40aa4;
+    border-bottom: 1px solid #e7b40aa4;
+    backdrop-filter: blur(5px);
+}
+
+.back-rome
+{
+    background-image: url(../img/Roma.jpg);
+    background-size: cover;
+}
+.back-napoli
+{
+    background-image: url(../Img/back.jpg);
+    background-size: cover;
+}
+ /*Estilos da pagina de Contato*/
+
+ .ml-50
+ {
+     margin-left: 50px;
+ }

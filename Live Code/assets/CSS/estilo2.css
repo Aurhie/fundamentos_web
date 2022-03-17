@@ -1,0 +1,46 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.back-city
+{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+    background-image: url(../img/CITY.png);
+    background-size: cover;
+}
+
+.card
+{
+    width: 750px;
+    height: 250px;
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.glass
+{
+    border-top: 1px solid #ffffff50;
+    border-right: 1px solid #ffffff50;
+    border-left: 1px solid #ffffff50;
+    border-bottom: 1px solid #ffffff50;
+    backdrop-filter: blur(5px);
+}
+
+.glass p
+{
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: bold;
+    
+}
